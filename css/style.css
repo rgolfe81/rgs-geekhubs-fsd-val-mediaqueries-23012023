@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+.container{
+    background-color: red;
+    height: 100vh;
+}
+#header{
+    background-color: blue;
+    height: 20vh;
+}
+#containerIzq{
+    background-color: brown;
+    height: 60vh;
+    width: 50vw;
+}
+#containerDcha{
+    background-color: green;
+    height: 60vh;
+    width: 50vw;
+}
+#footer{
+    background-color: yellow;
+    height: 20vh;
+}
+.section{
+    background-color: grey;
+    display: flex;
+    height: 60;
+}
+@media (max-width:360px){
+    #containerIzq{
+        /* height: 0vh;
+        width: 0vw; */
+        display: none;
+    }
+    #containerDcha{
+        width: 100vw;
+    }
+}
